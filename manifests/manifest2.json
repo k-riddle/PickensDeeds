@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://k-riddle.github.io/PickensDeeds/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Property deed",
+  "metadata" : [ {
+    "label" : "Format",
+    "value" : "bound manuscript"
+  }, {
+    "label" : "South Carolina County",
+    "value" : "Pickens County"
+  } ],
+  "description" : [ {
+    "@value" : "This is an edited description",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Clemson University Libraries",
+  "sequences" : [ {
+    "@id" : "http://188fb9a6-ddf0-4010-87f8-0affd347af4a",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://44a8a892-a4f4-452f-ad62-da99516658c3",
+      "@type" : "sc:Canvas",
+      "label" : "page 1",
+      "height" : 9183,
+      "width" : 7298,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9992c20b-0ed0-48f8-8946-587b1471486f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/sc.-pkn.-a-1.096.2-01%2fSC.PKN.A-1.096.2_01.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/sc.-pkn.-a-1.096.2-01%2fSC.PKN.A-1.096.2_01.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 67017534,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9183,
+          "width" : 7298
+        },
+        "on" : "http://44a8a892-a4f4-452f-ad62-da99516658c3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4faf3671-af3e-40bc-b44b-e6d080acfdd1",
+      "@type" : "sc:Canvas",
+      "label" : "page 2",
+      "height" : 9157,
+      "width" : 7295,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6f7c5617-26ca-43f6-b9e6-9a3a93c10a4c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/sc.-pkn.-a-1.096.2-02%2fSC.PKN.A-1.096.2_02.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/sc.-pkn.-a-1.096.2-02%2fSC.PKN.A-1.096.2_02.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 66800315,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9157,
+          "width" : 7295
+        },
+        "on" : "http://4faf3671-af3e-40bc-b44b-e6d080acfdd1"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://44a8a892-a4f4-452f-ad62-da99516658c3" ]
+  } ],
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "paged"
+}

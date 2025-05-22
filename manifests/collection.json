@@ -1,0 +1,13 @@
+{
+  "id" : "https://k-riddle.github.io/PickensDeeds/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in k-riddle/PickensDeeds project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://k-riddle.github.io/PickensDeeds/manifests/manifest2.json",
+    "label" : "Property deed"
+  } ]
+}
